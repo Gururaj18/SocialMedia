@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "id": "5007",
+      "username": "admin",
+      "password": "admin",
+      "profilePhoto": "https://ik.imagekit.io/vghdkomas/Profile/nivii_Dqk2M1rEt.png"
+    },
+    {
+      "id": "b29d",
+      "username": "Gururaj_R_S",
+      "password": "guru",
+      "profilePhoto": "https://ik.imagekit.io/vghdkomas/Profile/profile-1_Wdy_VEZiu.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2",
+      "username": "Clara Dwayne",
+      "location": "Miami",
+      "profilePhoto": "./images/profile-10.jpg",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/Screenshot__40__zgip76A-F.png",
+      "caption": "cHANGED CONTENT",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "3",
+      "username": "Rosalinda Clark",
+      "location": "New York",
+      "profilePhoto": "./images/profile-4.jpg",
+      "postPhoto": "./images/feed-4.jpg",
+      "caption": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo ullam, quam voluptatibus natus ex corporis ea atque quisquam, necessitatibus, cumque eligendi aliquam nulla soluta hic. Obcaecati, tempore dignissimos! Esse cupiditate laborum ullam, quae necessitatibus, officiis, quaerat aspernatur illo voluptatum repellat perferendis voluptatem similique. Assumenda nostrum, eius sit laborum nesciunt deserunt!",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "4",
+      "username": "Alexandria Riana",
+      "location": "Dubai",
+      "profilePhoto": "./images/profile-5.jpg",
+      "postPhoto": "./images/feed-5.jpg",
+      "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto sunt itaque, in, enim non doloremque velit unde nihil vitae impedit dolorum, distinctio ab deleniti!",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "5",
+      "username": "Keylie Hadid",
+      "location": "Dubai",
+      "profilePhoto": "./images/profile-7.jpg",
+      "postPhoto": "./images/feed-7.jpg",
+      "caption": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem obcaecati nisi veritatis quisquam eius accusantium rem quo repellat facilis neque.",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "6",
+      "username": "Benjamin Dwayne",
+      "location": "New York",
+      "profilePhoto": "./images/profile-15.jpg",
+      "postPhoto": "./images/feed-2.jpg",
+      "caption": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, consequuntur!",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "f03c",
+      "username": "Hello",
+      "location": "Laxmeshwar",
+      "profilePhoto": "./images/profile-10.jpg",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/Screenshot__2__5DCvFE__L.png",
+      "caption": "Changed content",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "d9f2",
+      "username": "Gururaj_R_S",
+      "location": "Gudageri",
+      "profilePhoto": "./images/profile-10.jpg",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/Screenshot__10__plNbTee2jP.png",
+      "caption": "Changed content",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "b4ef",
+      "username": "Gururaj_R_S",
+      "location": "GOA",
+      "profilePhoto": "./images/profile-1.jpg",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/IMG20230701060332_-0JoSeplcW.jpg",
+      "caption": "DudhSagar Falls",
+      "hashtags": [
+        "#lifestyle",
+        "#Wanderlust"
+      ]
+    },
+    {
+      "id": "a09b",
+      "username": "Gururaj_R_S",
+      "location": "Yellapura",
+      "profilePhoto": "./images/profile-1.jpg",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/20220604131825_IMG_9366_GfO2Wr1LY.JPG",
+      "caption": "Enter your Caption",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "4b6f",
+      "username": "[object HTMLHeadingElement]",
+      "location": "Yellapura",
+      "profilePhoto": "[object HTMLImageElement]",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/Screenshot__9__7NmNglaZl.png",
+      "caption": "Enter yourdsafdsa Caption",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "936d",
+      "username": "admin",
+      "location": "karwar",
+      "profilePhoto": "https://ik.imagekit.io/vghdkomas/Profile/nivii_Dqk2M1rEt.png",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/Screenshot__15__SGiZL7U4K.png",
+      "caption": "Enter your Caption",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "a6dd",
+      "username": "admin",
+      "location": "GOA",
+      "profilePhoto": "https://ik.imagekit.io/vghdkomas/Profile/nivii_Dqk2M1rEt.png",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/victory_UjFPbFeGa.jpg",
+      "caption": "Enter your Caption",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "8b4f",
+      "username": "Gururaj_R_S",
+      "location": "Haveri",
+      "profilePhoto": "https://ik.imagekit.io/vghdkomas/Profile/profile-1_Wdy_VEZiu.jpg",
+      "postPhoto": "https://ik.imagekit.io/vghdkomas/social_logo_zthjQJRhP.png",
+      "caption": "Enter your Caption",
+      "hashtags": [
+        "#lifestyle"
+      ]
+    }
+  ]
+}
