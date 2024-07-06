@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Page</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .profile-container {
+            text-align: center;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Welcome, <span id="username"></span>!</h1>
+        <img id="profilePicture" class="profile-picture" src="" alt="Profile Picture">
+        <!-- Other upload form elements can go here -->
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get username and profile picture URL from URL query parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const username = urlParams.get('username');
+            const profilePicture = urlParams.get('profilePicture');
+
+            // Display the username
+            document.getElementById('username').textContent = username;
+
+            // Display the profile picture if available
+            const profilePictureElem = document.getElementById('profilePicture');
+            if (profilePicture) {
+                profilePictureElem.src = profilePicture;
+            } else {
+                profilePictureElem.src = 'default-profile-picture.png'; // Provide a default profile picture
+                profilePictureElem.alt = 'Profile picture not found';
+            }
+        });
+    </script>
+</body>
+</html>
