@@ -39,7 +39,7 @@ document.getElementById('registrationForm').addEventListener('submit', function 
                 };
 
                 // Example console log to see the post object
-                fetch('https://my-json-server.typicode.com/Gururaj18/socialmedia/users', {
+                fetch('https://socialbackend-4uk5.onrender.com/users', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
