@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     const password = document.getElementById('password').value;
 
     try {
-        const response = await fetch('https://my-json-server.typicode.com/Gururaj18/socialmedia/users');
+        const response = await fetch('https://socialbackend-4uk5.onrender.com/users');
         const data = await response.json();
 
         const user = data.find(u => u.username === username && u.password === password);
