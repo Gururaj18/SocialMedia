@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const baseUrl = 'https://my-json-server.typicode.com/Gururaj18/socialmedia/posts'; // Adjust the base URL as per your server setup
+    const baseUrl = 'https://socialbackend-4uk5.onrender.com/posts'; // Adjust the base URL as per your server setup
 
     // Function to fetch posts from the server
     function fetchPosts() {
