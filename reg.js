@@ -1,6 +1,11 @@
 document.getElementById('registrationForm').addEventListener('submit', function (event) {
     event.preventDefault();
 
+
+    var loadingSpinner = document.getElementById('loading');
+    loadingSpinner.style.display = 'block';
+
+
     const fileInput = document.getElementById('profileImage');
     if (fileInput.files.length === 0) {
         alert('Please select an image to upload.');
@@ -50,19 +55,24 @@ document.getElementById('registrationForm').addEventListener('submit', function 
                     .then(data => {
                         console.log('Success:', data);
                         alert('Registration successful!');
+                        window.location.href = `index.html`;
+                        loadingSpinner.style.display = 'none';
                         // Optionally redirect or do something else after successful registration
                     })
                     .catch((error) => {
                         console.error('Error:', error);
                         alert('Registration failed!');
+                        loadingSpinner.style.display = 'none';
                     });
             } else {
                 console.error('Error uploading file:', data);
                 alert('Error uploading file: ' + data.message);
+                loadingSpinner.style.display = 'none';
             }
         })
         .catch(error => {
             console.error('Error:', error);
             alert('Error uploading file: ' + error.message);
+            loadingSpinner.style.display = 'none';
         });
 });
